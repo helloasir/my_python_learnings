@@ -1,0 +1,6 @@
+age = int(input('Enter your Age :'))
+salary = int(input('Enter your Salay :'))
+age_result = False if age < 18 or age > 50 else True
+salary_result = True if salary > 2500 else False
+message = 'Eligible' if age_result and salary_result else 'Not Eligible'
+print (message)
