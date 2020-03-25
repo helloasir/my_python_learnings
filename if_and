@@ -1,5 +1,5 @@
 age = int(input('Enter your Age :'))
-salary = int(input('Enter your Salay :'))
+salary = int(input('Enter your Salary :'))
 if age < 18 :
    age_result = False
 elif age > 55 :
